@@ -1,0 +1,1 @@
+alert("re ke baat hogyi choree, jada bada badmosh ban gya h tu ??");
