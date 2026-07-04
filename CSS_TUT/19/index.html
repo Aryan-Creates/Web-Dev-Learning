@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Multicolor website</title>
+    <style>
+        /* :root{
+            --primary-color:black;
+            --text-color: white;
+            --secondary-color: purple;
+        } */
+        :root{
+            --primary-color:rgb(38, 212, 212);
+            --text-color: rgb(184, 28, 28);
+            --secondary-color: rgb(37, 119, 12);
+        }
+        body{
+            background-color: greenyellow;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: var(--secondary-color);
+            padding: 24px 0;
+        }
+        ul li{
+            display: inline;
+            padding: 24px;
+            list-style: none;
+            font-weight: bolder;
+            /* color: rgb(252, 25, 25); */
+        }
+        ul li a{
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/Comprehensive List.txt">Home</a></li>
+                <li><a href="/Comprehensive List.txt">About</a></li>
+                <li><a href="/Comprehensive List.txt">Contact</a></li>
+                <li><a href="/Comprehensive List.txt">Login</a></li>
+                <li><a href="/Comprehensive List.txt">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
