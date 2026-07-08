@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container{
+            width: 80vh;
+            height: 45vw;
+            background-color: azure;
+        }
+        .box{
+            width: 64px;
+            height: 45px;
+            /* animation-name: aryanAnimates;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate-reverse;
+            animation-play-state: paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: aryanAnimates 4s ease-in-out 2s infinite backwards;
+        }
+        @keyframes aryanAnimates {
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: black;
+                transform: translateX(1200px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>
