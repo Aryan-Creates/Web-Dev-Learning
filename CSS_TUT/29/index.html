@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+    <style>
+        body{
+            background-color: rgb(226, 200, 167);
+        }
+        .container{
+            height: 36vh;
+            width: 30vw;
+            border: 8px solid black;
+        }
+        /* img{
+            height: 36vh;
+            width: 30vw;
+            object-fit: cover;
+            filter: blur(5px);
+        } */
+        .img1{
+            filter: drop-shadow(44px 34px 22px red)
+        }
+        .img2{
+            filter: grayscale(200%);
+        }
+        .img3{
+            filter: brightness(200%) sepia(200%) contrast(200%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img1" src="https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w730/f_auto/primary/coae7ms1cmpmnpsb6qtw"" alt="">
+        <img class="img2" src="https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w730/f_auto/primary/coae7ms1cmpmnpsb6qtw"" alt="">
+        <img class="img3" src="https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w730/f_auto/primary/coae7ms1cmpmnpsb6qtw"" alt="">
+    </div>
+</body>
+</html>
