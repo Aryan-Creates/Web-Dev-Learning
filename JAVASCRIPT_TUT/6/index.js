@@ -11,7 +11,7 @@ console.log(a.length)
 let real_name = "Aryan"
 let friend = "Honey"
 console.log("His name is " + real_name + " and his friend is " + friend)
-console.log('His name is  ${real_name} and his friend is ${friend}')
+console.log(`His name is ${real_name} and his friend is ${friend}`)
 
 let b = "BigBoy"
 console.log(b.toUpperCase())
