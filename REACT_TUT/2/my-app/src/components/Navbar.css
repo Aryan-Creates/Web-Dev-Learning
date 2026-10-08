@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+nav, ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    gap: 48px;
+}
+nav{
+    background-color: rgb(166, 133, 197);
+    padding: 48px;
+}
